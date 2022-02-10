@@ -1,0 +1,65 @@
+//styling for the home page of the site
+.home {
+  padding-top: 60px;
+
+  .work {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+    h3 {
+      font-size: $large-text;
+    }
+
+    .desc {
+      width: 40%;
+      justify-content: left;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      justify-content: space-between;
+
+      .square {
+        display: flex;
+        flex-direction: column;
+        padding: 35px 0;
+        font-weight: 600;
+        font-size: 20px;
+        text-decoration: underline;
+
+        img {
+          height: 500px;
+          width: 500px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .contact {
+    background-color: $site-orange;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+
+    .text {
+      width: 90%;
+      margin: 0 auto;
+      padding: 100px 0;
+      line-height: 25px;
+
+      h4 {
+        font-size: $med-text;
+      }
+
+      p {
+        width: 80%;
+      }
+    }
+  }
+}

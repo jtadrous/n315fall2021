@@ -1,0 +1,59 @@
+//styling for the courses page of the site
+.courses {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  flex-wrap: wrap;
+
+  .text {
+    margin: 0 auto;
+    width: 90%;
+
+    h2 {
+      font-size: $large-text;
+    }
+
+    p {
+      width: 50%;
+      padding-bottom: 30px;
+    }
+  }
+
+  h3 {
+    font-size: $med-text;
+  }
+
+  .card {
+    display: flex;
+    width: 100%;
+    padding: 50px 0;
+    margin: 15px 0;
+
+    .details {
+      width: 90%;
+      display: flex;
+      margin: 0 auto;
+      flex-wrap: wrap;
+
+      img {
+        width: 400px;
+        height: 250px;
+        border-radius: 7px;
+        margin-right: 20%;
+      }
+    }
+  }
+
+  .beg {
+    background-color: $site-green;
+  }
+
+  .int {
+    background-color: $site-orange;
+  }
+
+  .adv {
+    background-color: $site-purple;
+  }
+}
