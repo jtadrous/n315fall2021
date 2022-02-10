@@ -1,0 +1,34 @@
+//styling for the footer on each site page
+.footer {
+  background-color: #ffb463;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+
+  &__legal {
+    display: flex;
+    text-decoration: underline;
+    padding-top: 20px;
+
+    &__a {
+      cursor: pointer;
+      margin: 0 50px 30px 30px;
+    }
+  }
+
+  &__socials {
+    margin: 0 20px 20px 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+}

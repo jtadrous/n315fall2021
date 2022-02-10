@@ -1,0 +1,44 @@
+//styling for the our-mission page of the site
+.our-mission {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+
+  &__stock {
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.3);
+    border-radius: 12px;
+    margin-top: 20px;
+  }
+
+  &__txt {
+    width: 70%;
+    text-align: left;
+    padding: 40px 0;
+  }
+
+  &__people {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+
+    &__col {
+      margin: 0 20px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.3);
+      background-color: peachpuff;
+
+      &__img {
+        padding: 20px;
+        width: 250px;
+        height: 250px;
+      }
+    }
+  }
+}

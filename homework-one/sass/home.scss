@@ -1,0 +1,32 @@
+//styling for the home page of the site
+.home {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+
+  &__photos {
+    display: flex;
+    margin-top: 30px;
+
+    &__hero {
+      width: 570px;
+      height: 350px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.3);
+      margin: 35px;
+    }
+
+    &__flower {
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  &__month {
+    padding: 30px 0;
+  }
+}
