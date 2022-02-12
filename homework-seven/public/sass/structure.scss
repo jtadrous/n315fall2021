@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+button,
+#log-btn,
+#sign-btn {
+  background-color: $site-yellow;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 50px;
+  font-family: Caveat-Regular;
+  font-size: 25px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+}
+
+.home-image {
+  background: linear-gradient(to right, $overlay-red, $overlay-red),
+    url(../images/hero.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: $site-pink;
+}
+
+.login-image {
+  background-color: $site-yellow;
+}
+
+@font-face {
+  font-family: Caveat-Bold;
+  src: url(fonts/Caveat-Bold.ttf);
+}
+
+@font-face {
+  font-family: Caveat-Regular;
+  src: url(fonts/Caveat-Regular.ttf);
+}
+
+@font-face {
+  font-family: GillSans-Italic;
+  src: url(fonts/GillSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: GillSans-Light;
+  src: url(fonts/GillSans-Light.ttf);
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(fonts/GillSans.ttf);
+}
+
+@font-face {
+  font-family: Lato-Black;
+  src: url(fonts/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: Lato-Light;
+  src: url(fonts/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: Lato-LightItalic;
+  src: url(fonts/Lato-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url(fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lato-Italic;
+  src: url(fonts/Lato-Italic.ttf);
+}
