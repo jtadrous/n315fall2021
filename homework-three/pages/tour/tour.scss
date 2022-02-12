@@ -1,0 +1,54 @@
+//styling for the tour page
+.tour {
+  padding-top: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  color: $site-peach;
+
+  .top {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      width: 50%;
+    }
+
+    .text {
+      text-align: right;
+      width: 50%;
+    }
+  }
+
+  .cards {
+    margin-bottom: 30px;
+
+    .card {
+      display: flex;
+      border-bottom: 2px solid $site-purple;
+      padding-top: 40px;
+
+      .left {
+        width: 50%;
+
+        h2 {
+          font-size: 30px;
+          font-weight: 500;
+        }
+      }
+
+      .right {
+        width: 50%;
+        justify-content: right;
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    div:last-child {
+      border-bottom: none;
+      margin-bottom: 40px;
+    }
+  }
+}

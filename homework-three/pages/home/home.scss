@@ -1,0 +1,147 @@
+//styling for the home page
+.home {
+  padding-top: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+
+  .promo {
+    margin: 0 auto;
+
+    img {
+      width: 600px;
+      height: 550px;
+    }
+  }
+
+  .home-tour {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    color: $site-peach;
+
+    h1 {
+      text-align: right;
+      padding: 0;
+      margin-top: 30px;
+    }
+
+    .cards {
+      .card {
+        display: flex;
+        border-bottom: 2px solid $site-purple;
+        padding-top: 40px;
+
+        .left {
+          width: 50%;
+
+          h2 {
+            font-size: 30px;
+            font-weight: 500;
+          }
+        }
+
+        .right {
+          width: 50%;
+          justify-content: right;
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      div:last-child {
+        border-bottom: none;
+        margin-bottom: 40px;
+      }
+    }
+
+    #all {
+      width: 200px;
+      margin: 0 auto;
+      font-size: 15px;
+    }
+  }
+
+  .home-store {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+
+    .boxes {
+      display: flex;
+      justify-content: space-between;
+
+      .box {
+        display: flex;
+        flex-direction: column;
+        width: 32%;
+        cursor: pointer;
+
+        p {
+          color: $site-peach;
+          font-size: 18px;
+          padding: 15px 5px;
+          width: 90%;
+        }
+
+        p:hover {
+          color: $site-purple;
+        }
+      }
+    }
+  }
+
+  .home-music {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+    margin-top: 70px;
+
+    h1 {
+      text-align: right;
+    }
+
+    .album {
+      display: flex;
+      align-items: center;
+
+      .left {
+        width: 55%;
+        display: flex;
+
+        img {
+          width: 550px;
+          height: 550px;
+        }
+
+        .triangle {
+          position: absolute;
+          display: inline-block;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 0 150px 150px;
+          border-color: transparent transparent #525364 transparent;
+          margin-top: 420px;
+          margin-left: 420px;
+        }
+      }
+
+      .right {
+        width: 45%;
+        color: $site-peach;
+
+        p {
+          border-bottom: 2px solid $site-peach;
+          width: 130px;
+          padding-bottom: 10px;
+        }
+
+        h2 {
+          font-size: 70px;
+        }
+      }
+    }
+  }
+}

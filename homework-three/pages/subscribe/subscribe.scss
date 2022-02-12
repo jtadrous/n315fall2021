@@ -1,0 +1,60 @@
+//styling for the subscribe page
+.subscribe {
+  padding: 100px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  color: $site-peach;
+
+  #info {
+    width: 60%;
+    margin-bottom: 100px;
+  }
+
+  .mailList {
+    display: flex;
+
+    .left {
+      width: 55%;
+      display: flex;
+      flex-direction: column;
+
+      input,
+      select {
+        background-color: black;
+        border: none;
+        border-bottom: 2px solid $site-orange;
+        width: 75%;
+        padding: 20px;
+        color: $site-peach;
+
+        &::placeholder {
+          color: $site-peach;
+        }
+      }
+
+      .checks {
+        display: flex;
+        width: 90%;
+
+        input,
+        label {
+          width: 200px;
+        }
+      }
+    }
+
+    .right {
+      width: 45%;
+      display: flex;
+      align-self: center;
+      justify-content: right;
+
+      h2 {
+        font-size: 85px;
+        text-align: right;
+      }
+    }
+  }
+}
