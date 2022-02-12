@@ -1,0 +1,321 @@
+.cart {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  .searchBar {
+    display: none;
+  }
+
+  .ship {
+    display: flex;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    padding: 5px 0;
+
+    p {
+      padding-top: 3px;
+    }
+
+    span {
+      color: green;
+      padding-right: 10px;
+
+      i {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+
+    #empty {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 0 auto;
+      letter-spacing: 1px;
+      padding: 20px 0;
+    }
+
+    .purchases {
+      width: 74%;
+      background-color: #e7e4df;
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+
+      .topDet {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        div {
+          display: flex;
+          flex-direction: column;
+        }
+
+        p {
+          padding-right: 10px;
+        }
+
+        button {
+          padding: 0 25px;
+          border: solid 2px #f9c521;
+          border-radius: 2px;
+          background-color: white;
+          cursor: pointer;
+          font-weight: bold;
+          letter-spacing: 1px;
+        }
+      }
+
+      #tag {
+        font-size: 14px;
+        font-style: italic;
+      }
+
+      .selection {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        border-radius: 5px;
+        flex-direction: column;
+        margin-bottom: 5px;
+
+        .delete {
+          align-self: flex-end;
+
+          a {
+            color: #999999;
+            font-size: 14px;
+            text-decoration: underline;
+          }
+
+          span {
+            color: #999999;
+
+            i {
+              padding: 5px 10px;
+              font-size: 25px;
+              cursor: pointer;
+            }
+          }
+        }
+
+        .item {
+          width: 100%;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+
+          .main {
+            display: flex;
+            width: 50%;
+
+            img {
+              padding: 20px;
+              width: 40%;
+              height: auto;
+            }
+
+            h4 {
+              width: 60%;
+              font-weight: 100;
+              line-height: 25px;
+              align-self: center;
+              letter-spacing: 1px;
+            }
+          }
+
+          .selectNum {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 40px;
+
+            p {
+              font-size: 14px;
+            }
+
+            select {
+              margin-top: -10px;
+              padding: 10px 15px;
+              border: solid 2px #f9c521;
+              border-radius: 2px;
+              background-color: white;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+
+    .total {
+      max-height: 500px;
+      border-radius: 10px;
+      background-color: white;
+      width: 25%;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
+
+      p {
+        font-size: 16px;
+      }
+
+      h3 {
+        padding: 20px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+        margin: 0;
+      }
+
+      .sub {
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+
+        #save {
+          color: red;
+        }
+
+        #free {
+          color: green;
+        }
+
+        a {
+          text-decoration: none;
+          color: blue;
+          margin-top: -15px;
+          cursor: pointer;
+        }
+      }
+
+      #first {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: dashed #999999 1px;
+        margin: 0 20px 15px 20px;
+      }
+
+      #order {
+        background-color: #e7e4df;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin: 0 20px 10px 0;
+        padding-top: 15px;
+      }
+
+      #checkout {
+        flex-direction: column;
+        border-top: dashed #999999 1px;
+        margin: 20px;
+
+        button {
+          width: 100%;
+          padding: 10px;
+          border: none;
+          border-radius: 3px;
+          font-weight: bold;
+          letter-spacing: 0.5px;
+          cursor: pointer;
+          font-size: 14px;
+          text-align: center;
+        }
+
+        #secure {
+          background-color: #f9c521;
+          margin: 20px 0 10px 0;
+        }
+
+        #secure:hover {
+          color: white;
+          background-color: #192f4a;
+        }
+
+        #paypal {
+          background-color: #ebebeb;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .cart {
+    .details {
+      flex-direction: column;
+
+      .purchases {
+        width: 100%;
+      }
+
+      .total {
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cart {
+    .searchBar {
+      display: block;
+      width: 100%;
+      padding: 10px;
+
+      input {
+        background-color: #f3f3f3;
+        border-radius: 5px;
+        width: 100%;
+        height: 40px;
+        border: solid 1px #d2d2d2;
+      }
+
+      input::placeholder {
+        color: #999999;
+        padding: 20px;
+        letter-spacing: 0.5px;
+        font-weight: bold;
+      }
+    }
+
+    .details {
+      .purchases {
+        .selection {
+          .item {
+            flex-direction: column;
+
+            .selectNum {
+              width: 100%;
+              padding: 20px;
+            }
+
+            .main {
+              width: 100%;
+              align-self: flex-start;
+
+              img {
+                width: 35%;
+              }
+
+              h4 {
+                width: 65%;
+                padding: 10px 20px 0 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "coffee-makers": [
+    {
+      "id": 0,
+      "name": "K-Café® Single Serve Coffee Latte & Cappuccino Maker",
+      "price": 179.99,
+      "rating": 4.3,
+      "reviews": 764,
+      "colors": ["#1b2631"],
+      "image": "k-cafe.png"
+    },
+    {
+      "id": 1,
+      "name": "Keurig® K-Classic® Coffee Maker",
+      "price": 139.99,
+      "rating": 4.1,
+      "reviews": 1977,
+      "colors": ["#000000", "#aa273b"],
+      "image": "k-classic.png"
+    },
+    {
+      "id": 2,
+      "name": "Keurig® K-Compact® Coffee Maker",
+      "price": 59.99,
+      "rating": 3.5,
+      "reviews": 460,
+      "colors": ["#000000", "#891929", "#51b6b4", "#a3a7a8", "#ffffff"],
+      "image": "k-compact.png"
+    },
+    {
+      "id": 3,
+      "name": "K-Duo Essentials™ Single Serve & Carafe Coffee Maker",
+      "price": 99.99,
+      "rating": 3.0,
+      "reviews": 724,
+      "colors": ["#000000"],
+      "image": "k-duo-essentials.png"
+    },
+    {
+      "id": 4,
+      "name": "K-Duo® Special Edition Single Serve & Carafe Coffee Maker",
+      "price": 199.99,
+      "rating": 4.3,
+      "reviews": 192,
+      "colors": ["#b6b6b6"],
+      "image": "k-duo-special.png"
+    },
+    {
+      "id": 5,
+      "name": "Keurig® K-Elite® Single Serve Coffee Maker",
+      "price": 179.99,
+      "rating": 4.3,
+      "reviews": 2705,
+      "colors": ["#c4b8aa", "#a3a7a8", "#676260"],
+      "image": "k-elite.png"
+    },
+    {
+      "id": 6,
+      "name": "K-Express Essentials™ Single Serve Coffee Maker",
+      "price": 54.97,
+      "rating": 4.5,
+      "reviews": 125,
+      "colors": ["#000000", "#891929", "#51b6b4"],
+      "image": "k-express-essentials.png"
+    },
+    {
+      "id": 7,
+      "name": "K-Latte® Single Serve Coffee and Latte Maker",
+      "price": 99.99,
+      "rating": 4.0,
+      "reviews": 179,
+      "colors": ["#000000"],
+      "image": "k-latte.png"
+    },
+    {
+      "id": 8,
+      "name": "K-Mini® Single Serve Coffee Maker",
+      "price": 79.99,
+      "rating": 3.9,
+      "reviews": 325,
+      "colors": [
+        "#a9a9a6",
+        "#ffe7e8",
+        "#000000",
+        "#a4cfd3",
+        "#ff0f17",
+        "#ffffff"
+      ],
+      "image": "k-mini.png"
+    },
+    {
+      "id": 9,
+      "name": "Keurig® K-Select® Coffee Maker",
+      "price": 129.99,
+      "rating": 4.1,
+      "reviews": 1767,
+      "colors": [
+        "#716c6d",
+        "#bb3a56",
+        "#000000",
+        "#a4cfd3",
+        "#ddc7a5",
+        "#32425e"
+      ],
+      "image": "k-select.png"
+    },
+    {
+      "id": 10,
+      "name": "K-Slim® Single Serve Coffee Maker",
+      "price": 119.99,
+      "rating": 4.0,
+      "reviews": 932,
+      "colors": ["#000000", "#ffffff"],
+      "image": "k-slim.png"
+    },
+    {
+      "id": 11,
+      "name": "Keurig® K-Supreme® Single Serve Coffee Maker",
+      "price": 149.99,
+      "rating": 4.0,
+      "reviews": 1477,
+      "colors": ["#eae8d4", "#66676d", "#9ab39b", "#ffffff", "#000000"],
+      "image": "k-supreme.png"
+    }
+  ]
+}

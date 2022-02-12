@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>K-Cup® Coffee Makers | Single Serve Brewing Systems | Keurig®</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav id="scrollNav">
+      <div class="topNav">
+        <div class="logo">
+          <a href="#/home">
+            <img src="img/keurig-logo.svg" alt="keurig-logo"
+          /></a>
+        </div>
+        <div class="search">
+          <i class="fa fa-search"></i>
+          <input type="text" placeholder="Search hundreds of ways to brew..." />
+        </div>
+        <div class="other">
+          <div class="icons">
+            <a href="#">Free Shipping $29+</a>
+            <i class="fa fa-user" id="profile"></i>
+            <a href="#/cart"
+              ><p class="navCount">1</p>
+              <i class="fa fa-shopping-cart"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="navLinks">
+        <a href="#" id="main">Coffee, Tea & More</a>
+        <a href="#">Coffee Makers</a>
+        <a href="#">Accessories</a>
+        <a href="#">Auto Delivery</a>
+        <a href="#">Get Started</a>
+        <a href="#">Gift Guide</a>
+        <a href="#" id="deals"><i class="fa fa-tag"></i> Deals</a>
+        <a href="#">Customize</a>
+      </div>
+    </nav>
+
+    <div class="mobileNav">
+      <input type="checkbox" id="menyAvPaa" />
+      <label id="burger" for="menyAvPaa">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+      <div class="top">
+        <div class="mobMenu"></div>
+        <div class="mobLogo">
+          <a href="#/home">
+            <img src="img/keurig-logo.svg" alt="keurig-logo"
+          /></a>
+        </div>
+        <div class="mobIcons">
+          <a href="#/cart"
+            ><p class="navCount">1</p>
+            <i class="fa fa-shopping-cart"></i>
+          </a>
+          <i class="fa fa-user" id="mobProfile"></i>
+        </div>
+      </div>
+      <div id="meny">
+        <div class="mobLinks">
+          <div class="welcome">
+            <h2>Welcome</h2>
+            <div class="log">
+              <a href="#" class="user">Login</a>
+              <a href="#" class="user">Create Account</a>
+              <a href="#">Free Shipping $29+</a>
+            </div>
+          </div>
+          <a href="#">Coffee, Tea & More</a>
+          <a href="#">Coffee Makers</a>
+          <a href="#">Accessories</a>
+          <a href="#">Auto Delivery</a>
+          <a href="#">Get Started</a>
+          <a href="#">Gift Guide</a>
+          <a href="#" id="deals"><i class="fa fa-tag"></i> Deals</a>
+          <a href="#">Customize</a>
+          <a href="#">Quick-reorder</a>
+          <a href="#">Register Coffee Maker</a>
+          <a href="#">Support</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="logModal" class="modal">
+      <div class="bgLayer"></div>
+      <div class="content">
+        <div class="top">
+          <span id="close"><i class="fa fa-close"></i></span>
+          <p>Close</p>
+        </div>
+        <div class="log">
+          <h4>LOG IN</h4>
+          <input type="email" placeholder="Email*" id="emInput" />
+          <input type="password" placeholder="Password*" id="passInput" />
+          <input type="submit" id="log-btn" onclick="login()" value="SIGN IN" />
+          <a href="#">Forgot Password?</a>
+        </div>
+        <div class="sign">
+          <h4>SIGN UP</h4>
+          <input type="text" placeholder="First Name*" id="fName" />
+          <input type="text" placeholder="Last Name*" id="lName" />
+          <input type="email" placeholder="Email*" id="email" />
+          <input type="password" placeholder="Password*" id="pass" />
+          <input
+            type="submit"
+            id="sign-btn"
+            onclick="createUser()"
+            value="CREATE AN ACCOUNT"
+          />
+          <p>
+            By clicking "Create an Account," I accept Keurig
+            <b>Terms of Use</b> and <b>Privacy Policy</b>.
+          </p>
+        </div>
+        <input type="submit" id="out-btn" onclick="signOut()" value="LOGOUT" />
+      </div>
+    </div>
+
+    <div class="toast" data-autohide="false">
+      <div class="toast-header">
+        <strong class="mr-auto text-primary toast-head">Toast Header</strong>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">
+          &times;
+        </button>
+      </div>
+      <div class="toast-body">Some text inside the toast body</div>
+    </div>
+
+    <div class="app"></div>
+
+    <footer>
+      <div class="store">
+        <div class="find">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p>Find a Store</p>
+          </div>
+          <p class="dot">&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;</p>
+          <div>
+            <i class="fa fa-phone-square" id="phone"></i>
+            <p>Customer Support: 866-901-BREW(2739)</p>
+          </div>
+        </div>
+        <div class="follow">
+          <p>Follow Us</p>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-facebook-f"></i>
+          <i class="fa fa-instagram"></i>
+        </div>
+      </div>
+      <div class="footLinks">
+        <div class="shop">
+          <h4>Shop</h4>
+          <a href="#">Coffee Makers</a>
+          <a href="#">Beverages</a>
+
+          <h4 id="orders">Orders</h4>
+          <a href="#">Track Your Order</a>
+          <a href="#">Returns</a>
+          <a href="#">Auto Delivery Orders</a>
+        </div>
+        <div class="help">
+          <h4>Helpful Info</h4>
+          <a href="#">Register Your Appliance</a>
+          <a href="#">Support</a>
+          <a href="#">Product Recall</a>
+          <a href="#">Business Solutions</a>
+          <a href="#">Site Map</a>
+          <a href="#">Contact Us</a>
+          <a href="#">CA Privacy Rights</a>
+          <a href="#">Do Not Sell My Personal Information</a>
+        </div>
+        <div class="about">
+          <h4>About Us</h4>
+          <a href="#">About Us</a>
+          <a href="#">News</a>
+          <a href="#">Careers</a>
+          <a href="#">Sustainability</a>
+          <a href="#">Rewards Program</a>
+          <a href="#">Accepted Payment</a>
+        </div>
+        <div class="mail">
+          <h4>Join Our Mailing List</h4>
+          <p>
+            Stay up-to-date with the latest news and new arrivals direct to your
+            inbox.
+          </p>
+          <div class="news">
+            <input type="email" placeholder="Your email" />
+            <button>Sign Up</button>
+          </div>
+          <hr />
+          <h4>Select Country</h4>
+          <div class="usa">
+            <img src="img/select-country.png" alt="usa-flag" />
+            <select name="country" id="country">
+              <option selected value="usa">United States</option>
+              <option value="ca">Canada</option>
+              <option value="mx">Mexico</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="footEnd">
+        <p>© 2021 Keurig Green Mountain, Inc. - All Rights Reserved</p>
+        <a href="#">Terms of Use</a>
+        <p class="dot">•</p>
+        <a href="#">Privacy Policy</a>
+        <p class="dot">•</p>
+        <a href="#">Modern Slavery Act</a>
+      </div>
+    </footer>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.5.0/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.5.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.5.0/firebase-database-compat.js"></script>
+    <script
+      defer
+      src="/__/firebase/9.5.0/firebase-firestore-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.5.0/firebase-functions-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.5.0/firebase-messaging-compat.js"
+    ></script>
+    <script defer src="/__/firebase/9.5.0/firebase-storage-compat.js"></script>
+    <script
+      defer
+      src="/__/firebase/9.5.0/firebase-analytics-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.5.0/firebase-remote-config-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.5.0/firebase-performance-compat.js"
+    ></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+    <!--my own scripts-->
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="app/model.js"></script>
+    <script src="app/app.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
