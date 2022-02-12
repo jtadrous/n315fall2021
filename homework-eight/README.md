@@ -1,4 +1,4 @@
-# homework-eight-n315
+## homework-eight
 
 A fully working CRUD application called JungleCook
 
