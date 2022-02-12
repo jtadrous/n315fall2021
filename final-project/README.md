@@ -1,4 +1,4 @@
-# final-alt-n315
+## final-alt-project
 
 An e-commerce site modeled off of Keurig.com
 
