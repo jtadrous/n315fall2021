@@ -1,0 +1,15 @@
+{
+  "name": "homework-five",
+  "version": "1.0.0",
+  "description": "This is the home page of Jungle Cook.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server"
+  },
+  "author": "Julie Tadrous",
+  "license": "ISC"
+}

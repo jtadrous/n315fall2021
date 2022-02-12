@@ -1,0 +1,127 @@
+.home {
+  width: 100%;
+  height: 100%;
+  background-color: $site-pink;
+  background-image: linear-gradient(to right, $overlay-red, $overlay-red),
+    url(../images/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .circle-holder {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .little-circle {
+      width: 170px;
+      height: 170px;
+      background-color: $site-peach;
+      border-radius: 300px;
+      position: fixed;
+      margin-left: 290px;
+      margin-top: -270px;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      z-index: 1;
+
+      p {
+        font-family: Lato-Italic;
+        font-size: 10px;
+        width: 120px;
+        margin-top: 60px;
+        margin-left: 30px;
+        text-align: center;
+        letter-spacing: 1px;
+      }
+    }
+
+    .big-circle {
+      width: 350px;
+      height: 350px;
+      background-color: $site-yellow;
+      border-radius: 300px;
+      margin-right: 50px;
+      z-index: 2;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+      h4 {
+        font-family: Caveat-Bold;
+        font-size: 24px;
+        margin-top: 110px;
+        margin-left: 90px;
+        letter-spacing: 2px;
+      }
+
+      p {
+        width: 170px;
+        margin-top: 30px;
+        margin-left: 90px;
+        font-family: Lato-Regular;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 1.5px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .home {
+    .circle-holder {
+      .little-circle {
+        margin-left: 140px;
+        margin-top: -370px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .home {
+    .circle-holder {
+      .big-circle {
+        width: 250px;
+        height: 250px;
+        margin-right: 0;
+
+        h4 {
+          font-size: 17px;
+          margin-top: 80px;
+          margin-left: 60px;
+        }
+
+        p {
+          font-size: 9px;
+          margin-top: 10px;
+          margin-left: 65px;
+          letter-spacing: 1px;
+          width: 120px;
+          line-height: 10px;
+        }
+      }
+
+      .little-circle {
+        width: 120px;
+        height: 120px;
+        margin-top: -260px;
+
+        p {
+          font-size: 8px;
+          margin-top: 40px;
+          margin-left: 20px;
+          width: 85px;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+}
