@@ -1,0 +1,158 @@
+nav {
+  width: 100%;
+  display: flex;
+  font-family: Caveat-Regular;
+  font-size: 25px;
+  padding: 0 50px;
+  z-index: 100;
+  align-items: center;
+  height: 100px;
+
+  .hide-btn {
+    display: none;
+  }
+
+  .hide-log {
+    display: block;
+  }
+
+  .wide {
+    width: 100%;
+
+    .logo {
+      width: 40%;
+      float: left;
+    }
+
+    .links {
+      width: 60%;
+      float: right;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      a {
+        color: black;
+        text-decoration: none;
+        letter-spacing: 3px;
+      }
+
+      .selected {
+        border-bottom: 3px solid black;
+        padding-bottom: 5px;
+        margin-top: 7px;
+      }
+    }
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+#bottomnav {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  nav {
+    font-size: 18px;
+    padding: 0 25px;
+
+    .wide {
+      .logo {
+        width: 25%;
+      }
+
+      .links {
+        width: 75%;
+
+        a {
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    .wide {
+      display: none;
+    }
+
+    .mobile {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      .topnav {
+        display: flex;
+
+        .logo {
+          width: 30%;
+          float: left;
+        }
+
+        .space {
+          width: 50%;
+        }
+
+        .right {
+          width: 20%;
+          display: flex;
+          flex-direction: column;
+
+          i {
+            font-size: 40px;
+            color: black;
+            float: right;
+          }
+        }
+      }
+    }
+  }
+
+  #bottomnav {
+    width: 100%;
+    //display: none;
+    background-color: $site-pink;
+
+    #mobile-links {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        font-family: Caveat-Regular;
+        color: black;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-align: right;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  nav {
+    padding: 30px;
+
+    .mobile {
+      .topnav {
+        .logo {
+          img {
+            max-width: 130px;
+          }
+        }
+
+        .right {
+          i {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}

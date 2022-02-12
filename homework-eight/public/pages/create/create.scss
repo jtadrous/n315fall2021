@@ -1,0 +1,156 @@
+.create {
+  width: 75%;
+  height: auto !important;
+  min-height: calc(100vh - 150px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+
+  h2 {
+    font-family: Caveat-Bold;
+    font-size: 25px;
+    padding: 60px 0;
+    letter-spacing: 2px;
+  }
+
+  .form {
+    position: relative;
+    width: 100%;
+
+    input {
+      height: 40px;
+      width: 100%;
+      margin-bottom: 40px;
+      border: none;
+      border-bottom: black solid 3px;
+    }
+
+    input::placeholder {
+      font-family: Lato-Light;
+      font-size: 20px;
+      color: black;
+    }
+
+    .details {
+      padding-bottom: 100px;
+
+      #imgFile {
+        background-color: $site-pink;
+        color: black;
+      }
+
+      #addImage {
+        font-family: Caveat;
+        height: 30px;
+        border-radius: 20px;
+        border: none;
+        background-color: $site-pink;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 0;
+        font-size: 17px;
+        cursor: pointer;
+        top: 0;
+        padding: 0 15px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 8px;
+      }
+    }
+
+    .addBtn {
+      font-family: GillSans-Light;
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      background-color: $site-pink;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      right: 0;
+      font-size: 25px;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .ingred {
+      padding-bottom: 100px;
+      position: relative;
+
+      #ingrBtn {
+        bottom: 150px;
+      }
+    }
+
+    .instr {
+      padding-bottom: 70px;
+      position: relative;
+
+      #instrBtn {
+        bottom: 125px;
+      }
+    }
+
+    p {
+      font-size: 20px;
+      font-family: Lato-Black;
+      padding-bottom: 10px;
+    }
+
+    .subForm {
+      text-align: center;
+      margin-bottom: 100px;
+
+      #subRec {
+        background-color: $site-pink;
+        width: 420px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .create {
+    h2 {
+      text-align: center;
+    }
+
+    .form {
+      input::placeholder {
+        font-size: 16px;
+      }
+
+      .subForm {
+        #subRec {
+          width: 320px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .create {
+    width: 80%;
+
+    h2 {
+      font-size: 20px;
+    }
+
+    .form {
+      input::placeholder {
+        font-size: 12px;
+      }
+
+      .subForm {
+        #subRec {
+          width: 220px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

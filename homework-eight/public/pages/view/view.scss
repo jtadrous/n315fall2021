@@ -1,0 +1,156 @@
+.view {
+  width: 90%;
+  height: auto !important;
+  min-height: calc(100vh - 150px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+
+  h3 {
+    font-size: 25px;
+    font-family: Lato-Black;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+  }
+
+  p,
+  li {
+    font-family: Caveat;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .topRec {
+    width: 100%;
+    display: flex;
+    margin-top: 75px;
+
+    .leftRec {
+      width: 50%;
+      display: flex;
+
+      .sideBox {
+        width: 10%;
+
+        #imgCap {
+          transform-origin: 0 0;
+          transform: rotate(-90deg);
+          width: 420px;
+          margin-top: 420px;
+          text-align: center;
+          text-transform: lowercase;
+        }
+      }
+
+      .recImg {
+        width: 90%;
+        height: 430px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .pizza {
+        background-image: url(../images/recipe-pizza.jpg);
+      }
+
+      .burger {
+        background-image: url(../images/recipe-burger.jpg);
+      }
+
+      .pilaf {
+        background-image: url(../images/recipe-pilaf.jpg);
+      }
+
+      .chow {
+        background-image: url(../images/recipe-chowmein.jpg);
+      }
+    }
+
+    .rightRec {
+      width: 50%;
+      padding: 0 40px;
+    }
+  }
+
+  .ingredients {
+    padding-left: 5%;
+    margin-bottom: 60px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .instructions {
+    padding-left: 5%;
+    margin-bottom: 60px;
+
+    li {
+      padding-left: 15px;
+      margin-left: 20px;
+    }
+  }
+
+  .edit {
+    padding-left: 5%;
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .view {
+    .topRec {
+      flex-direction: column;
+
+      .leftRec {
+        width: 90%;
+
+        .sideBox {
+          #imgCap {
+            margin-top: 350px;
+          }
+        }
+
+        .recImg {
+          max-height: 350px;
+        }
+      }
+
+      .rightRec {
+        width: 90%;
+        padding-left: 10%;
+      }
+    }
+
+    .instructions,
+    .ingredients,
+    .edit {
+      padding-left: 10%;
+      width: 90%;
+    }
+
+    .edit {
+      margin-bottom: 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .view {
+    .topRec {
+      .leftRec {
+        .sideBox {
+          #imgCap {
+            width: 300px;
+            margin-top: 300px;
+          }
+        }
+        .recImg {
+          max-height: 275px;
+        }
+      }
+    }
+  }
+}
