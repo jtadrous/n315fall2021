@@ -1,0 +1,47 @@
+//styling for the shoes page of the site
+.shoes {
+  width: 95%;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .text {
+    padding: 30px;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .bottom-text {
+    padding: 30px;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .inventory {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    width: 100%;
+    justify-content: space-between;
+
+    .pair {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+
+      p {
+        font-weight: 600;
+        font-size: 16px;
+      }
+    }
+  }
+}

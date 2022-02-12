@@ -1,0 +1,38 @@
+//styling for the navigation bar on each site page
+nav {
+  background-color: white;
+  width: 95%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 0.2);
+
+  .logo {
+    float: left;
+    width: 50%;
+  }
+
+  .links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: 600;
+
+    a {
+      font-size: 30px;
+      text-decoration: none;
+      padding: 10px 20px;
+      color: black;
+    }
+
+    .log {
+      background-color: gray;
+      border-radius: 10px;
+    }
+  }
+}
