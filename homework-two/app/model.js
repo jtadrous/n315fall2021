@@ -11,29 +11,29 @@ var MODEL = (function () {
   <div class="projects">
     <div class="square">
       <img
-        src="images/AdobeStock_model.jpeg"
-        alt="Fashion model posing in a chair"
+        src="images/AdobeStock_model.jpg"
+        alt="Fashion model looking to her left, posing in a black, metal chair"
       />
       <p>Project One</p>
     </div>
     <div class="square">
       <img
-        src="images/AdobeStock_art.jpeg"
-        alt="Wide shot of a city landscape"
+        src="images/AdobeStock_art.jpg"
+        alt="Three paintings displayed on a white wall in a museum or gallery"
       />
       <p>Project Two</p>
     </div>
     <div class="square">
       <img
-        src="images/AdobeStock_city.jpeg"
-        alt="Paintings displayed in a museum"
+        src="images/AdobeStock_city.jpg"
+        alt="Wide overhead shot of a city landscape"
       />
       <p>Project Three</p>
     </div>
     <div class="square">
       <img
-        src="images/AdobeStock_field.jpeg"
-        alt="Woman standing in a field"
+        src="images/AdobeStock_field.jpg"
+        alt="Woman standing in a field facing the sun with her arms out behind her"
       />
       <p>Project Four</p>
     </div>
@@ -80,7 +80,7 @@ var MODEL = (function () {
   <br />
   <div class="people">
     <div class="tom">
-      <img src="images/AdobeStock_tom.png" alt="Man smiling" />
+      <img src="images/AdobeStock_tom.png" alt="Portrait of man smiling" />
       <p>
         <b>Tom Daniels</b> <br />
         Specializes in Fine Arts Photography <br />
@@ -88,7 +88,7 @@ var MODEL = (function () {
       </p>
     </div>
     <div class="stacy">
-      <img src="images/AdobeStock_stacy.png" alt="Woman smiling" />
+      <img src="images/AdobeStock_stacy.png" alt="Portrait of woman smiling" />
       <p>
         <b>Stacy Miller</b> <br />
         Specializes in Fashion Photography <br />
@@ -96,7 +96,7 @@ var MODEL = (function () {
       </p>
     </div>
     <div class="lupa">
-      <img src="images/AdobeStock_lupa.png" alt="Woman smiling" />
+      <img src="images/AdobeStock_lupa.png" alt="Portrait of woman smiling" />
       <p>
         <b>Lupa Hernandez</b> <br />
         Specializes in Landscape Photography <br />
@@ -126,7 +126,7 @@ var MODEL = (function () {
     <div class="right">
       <p>capturecollective@gmail.com • (518) 739-2029</p>
       <img
-        src="images/AdobeStock_beach.jpeg"
+        src="images/AdobeStock_beach.jpg"
         alt="Arial view of waves on a beach"
       />
     </div>
@@ -162,24 +162,24 @@ var MODEL = (function () {
 </div>
 <br />
 <div class="grid">
-  <img src="images/AdobeStock_land1.jpeg" alt="" />
-  <img src="images/AdobeStock_land2.jpeg" alt="" />
-  <img src="images/AdobeStock_land3.jpeg" alt="" />
-  <img src="images/AdobeStock_land4.jpeg" alt="" />
-  <img src="images/AdobeStock_land5.jpeg" alt="" />
-  <img src="images/AdobeStock_land6.jpeg" alt="" />
-  <img src="images/AdobeStock_fashion1.jpeg" alt="" />
-  <img src="images/AdobeStock_fashion2.jpeg" alt="" />
-  <img src="images/AdobeStock_fashion3.jpeg" alt="" />
-  <img src="images/AdobeStock_fashion4.jpeg" alt="" />
-  <img src="images/AdobeStock_fashion5.jpeg" alt="" />
-  <img src="images/AdobeStock_fashion6.jpeg" alt="" />
-  <img src="images/AdobeStock_arts1.jpeg" alt="" />
-  <img src="images/AdobeStock_arts2.jpeg" alt="" />
-  <img src="images/AdobeStock_arts3.jpeg" alt="" />
-  <img src="images/AdobeStock_arts4.jpeg" alt="" />
-  <img src="images/AdobeStock_arts5.jpeg" alt="" />
-  <img src="images/AdobeStock_arts6.jpeg" alt="" />
+  <img src="images/AdobeStock_land1.jpg" alt="Wooden dock overlooking beautiful lake" />
+  <img src="images/AdobeStock_land2.jpg" alt="Landscape of lake at sunset with trees and mountains in the background" />
+  <img src="images/AdobeStock_land3.jpg" alt="Several canoes floating at shore with colorful apartment buildings in the distance" />
+  <img src="images/AdobeStock_land4.jpg" alt="Person sitting on kayak in the middle of the ocean facing mountains in the distance" />
+  <img src="images/AdobeStock_land5.jpg" alt="Hot air balloon floating above mountains during sunset" />
+  <img src="images/AdobeStock_land6.jpg" alt="Sailboat floating towards the horizon in the middle of the ocean at dusk" />
+  <img src="images/AdobeStock_fashion1.jpg" alt="Two women wearing jumpsuits posing near a stairway with a large plant to their left" />
+  <img src="images/AdobeStock_fashion2.jpg" alt="Man and woman wearing black clothing and sunglasses sitting on a stool back to back" />
+  <img src="images/AdobeStock_fashion3.jpg" alt="Woman wearing a hat and trench coat standing in a wheat field looking ahead towards the distance" />
+  <img src="images/AdobeStock_fashion4.jpg" alt="Two women wearing bright jackets and jeans, standing in a field and looking towards the camera" />
+  <img src="images/AdobeStock_fashion5.jpg" alt="Man standing in front of a white background, dressed in dark clothing and a tan trench coat looking to his left" />
+  <img src="images/AdobeStock_fashion6.jpg" alt="Woman standing in a field at sunrise wearing a sherpa jacket and touching a bright colored hat that rests on her head" />
+  <img src="images/AdobeStock_arts1.jpg" alt="Woman facing away from the camera holding a paintbrush up to a large canvas painting" />
+  <img src="images/AdobeStock_arts2.jpg" alt="Man facing away from the camera standing behind several timpani drums looking towards the rest of the orchestra" />
+  <img src="images/AdobeStock_arts3.jpg" alt="Blonde woman wearing dark jacket looking at a painting in a gallery" />
+  <img src="images/AdobeStock_arts4.jpg" alt="Dancer wearing a bright orange dress posing in front of a dark background" />
+  <img src="images/AdobeStock_arts5.jpg" alt="A close-up shot of an artist's hand holding a paintbrush up to a large canvas painting" />
+  <img src="images/AdobeStock_arts6.jpg" alt="A man and woman in conversation while looking at several pieces of artwork in a gallery" />
 </div>
 </section>`;
   var _coursesPageInfo = `
@@ -194,7 +194,7 @@ var MODEL = (function () {
 </div>
 <div class="card beg">
   <div class="details">
-    <img src="images/AdobeStock_beg.jpeg" alt="" />
+    <img src="images/AdobeStock_beg.jpg" alt="Photographer holding a camera up to her face" />
     <div>
       <h3>Basics of Point + Shoot Photography</h3>
       <p><b>Instructor:</b> Tom Daniels</p>
@@ -208,7 +208,7 @@ var MODEL = (function () {
 </div>
 <div class="card int">
   <div class="details">
-    <img src="images/AdobeStock_med.jpeg" alt="" />
+    <img src="images/AdobeStock_med.jpg" alt="Fashion model facing the left holding a large leaf as her skirt blows in the wind" />
     <div>
       <h3>Perfecting Fashion Photography</h3>
       <p><b>Instructor:</b> Stacy Miller</p>
@@ -222,7 +222,7 @@ var MODEL = (function () {
 </div>
 <div class="card adv">
   <div class="details">
-    <img src="images/AdobeStock_adv.jpeg" alt="" />
+    <img src="images/AdobeStock_adv.jpg" alt="Silhouette of a photographer in the distance pointing his camera up at the starry night sky" />
     <div>
       <h3>How to Shoot Landscapes: 101</h3>
       <p><b>Instructor:</b> Lupa Hernandez</p>
