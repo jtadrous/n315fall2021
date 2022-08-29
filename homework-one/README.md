@@ -1,3 +1,3 @@
 ## homework-one
 
-Web4 Link: https://in-info-web4.informatics.iupui.edu/~jtadrous/N315/homework-one/
+Live Link: https://jtadrous.github.io/n315fall2021/homework-one/index.html
